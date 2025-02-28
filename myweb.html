@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduAgency - Your Gateway to Education</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100 font-sans">
+
+    <!-- Header -->
+    <header class="bg-blue-600 text-white py-4">
+        <nav class="container mx-auto flex justify-between items-center px-6">
+            <a href="#" class="text-3xl font-bold">EduAgency</a>
+            <ul class="flex space-x-8 text-lg">
+                <li><a href="#home" class="hover:text-gray-200">Home</a></li>
+                <li><a href="#about" class="hover:text-gray-200">About</a></li>
+                <li><a href="#scholarships" class="hover:text-gray-200">Scholarships</a></li>
+                <li><a href="#contact" class="hover:text-gray-200">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-blue-700 text-white text-center py-32">
+        <div class="container mx-auto px-6">
+            <h1 class="text-5xl font-extrabold mb-4">Unlock Your Future with EduAgency</h1>
+            <p class="text-xl mb-8">Discover educational opportunities and scholarships from around the world</p>
+            <a href="#contact" class="bg-white text-blue-700 px-6 py-3 rounded-full font-semibold hover:bg-gray-200">Get in Touch</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-6">About Us</h2>
+            <p class="text-lg mb-8">At EduAgency, we are dedicated to helping students find the best educational opportunities globally. Our mission is to provide information about scholarships, universities, and academic programs.</p>
+            <a href="#scholarships" class="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700">Explore Scholarships</a>
+        </div>
+    </section>
+
+    <!-- Scholarships Section -->
+    <section id="scholarships" class="py-20 bg-blue-100">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-6">Scholarships Available</h2>
+            <p class="text-lg mb-8">Here are some of the top scholarships available for students worldwide.</p>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-semibold mb-2">University Scholarship</h3>
+                    <p class="mb-4">A great scholarship opportunity for students pursuing higher education in the USA.</p>
+                    <a href="#" class="text-blue-600 hover:underline">Learn More</a>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-semibold mb-2">Global Scholarship Program</h3>
+                    <p class="mb-4">Global scholarships for students pursuing education abroad.</p>
+                    <a href="#" class="text-blue-600 hover:underline">Learn More</a>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <h3 class="text-2xl font-semibold mb-2">Research Grant</h3>
+                    <p class="mb-4">Scholarships for students focused on advanced research in various fields.</p>
+                    <a href="#" class="text-blue-600 hover:underline">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-4xl font-bold mb-6">Contact Us</h2>
+            <p class="text-lg mb-8">We'd love to hear from you! Fill out the form below to get in touch with our team.</p>
+            <form action="#" method="POST" class="space-y-6 max-w-lg mx-auto">
+                <input type="text" name="name" placeholder="Your Name" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" required>
+                <input type="email" name="email" placeholder="Your Email" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" required>
+                <textarea name="message" rows="4" placeholder="Your Message" class="w-full p-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600" required></textarea>
+                <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 w-full">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-blue-600 text-white py-6">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 EduAgency. All Rights Reserved.</p>
+            <p>Contact: info@eduagency.com | Phone: +123 456 7890</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
